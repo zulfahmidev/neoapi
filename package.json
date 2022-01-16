@@ -1,0 +1,25 @@
+{
+  "name": "neoapi",
+  "version": "1.0.0",
+  "description": "Restfull API By Zulfahmidev",
+  "nodemonConfig": {
+    "watch": [
+      "app"
+    ],
+    "ext": "js"
+  },
+  "main": "system/server.js",
+  "scripts": {
+    "dev": "node system/server",
+    "watch": "nodemon system/server"
+  },
+  "keywords": [],
+  "author": "zulfahmidev",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^12.0.4",
+    "express": "^4.17.2",
+    "mongodb": "^4.3.0",
+    "nodemon": "^2.0.15"
+  }
+}
